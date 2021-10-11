@@ -37,7 +37,7 @@
 }
 /* result end after submit */
 .result-question {
-    background-color: rgb(162, 240, 232);
+    background-color: rgb(229, 236, 236);
     margin: 5px;
     padding: 5px;
 }
@@ -58,7 +58,7 @@
 }
 
 .create-quiz .tb-desc {
-    background-color: rgb(113, 214, 207);
+    background-color: rgb(228, 245, 244);
 }
 
 .create-quiz .options > div {

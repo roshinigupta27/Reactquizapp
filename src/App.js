@@ -58,10 +58,10 @@ class App extends Component {
         <header className="p-2">
           <div className="row">
             <div className="col-6">
-              <h3>Quiz Application</h3>
+              <h3>Quiz to check your basics</h3>
             </div>
             <div className="col-6 text-right">
-              <label className="mr-1">Select Quiz:</label>
+              <label className="mr-1">Select topic:</label>
               <select onChange={this.onChange}>
                 {this.state.quizes.map(q => <option key={q.id} value={q.id}>{q.name}</option>)}
               </select>

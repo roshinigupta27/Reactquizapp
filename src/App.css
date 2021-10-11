@@ -1,38 +1,45 @@
 .btn {
-    border-radius: 0;
+    border-radius: 18px;
 }
 
 .btn + .btn {
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+.btn:hover{
+    background-color: #0a9893;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+   
 }
 
 .option {
-    background-color: #cadaee;
+    background-color: #1dd0d3;
     cursor: pointer;
-    font-size: 20px;
-    margin: 4px;
+    font-size: 18px;
+    margin: 5px;
 }
 
 .option label {
     cursor: pointer;
     display: block;
-    padding: 10px;
+    padding: 15px;
 }
 
 #quiz .options input[type=checkbox] {
-    height: 22px;
-    margin-right: 6px;
+    height: 24px;
+    margin-right: 5px;
     width: 22px;
 }
 
 .cursor-pointer {
     cursor: pointer;
 }
-
+/* result end after submit */
 .result-question {
-    background-color: #eee;
-    margin: 4px;
-    padding: 6px;
+    background-color: rgb(162, 240, 232);
+    margin: 5px;
+    padding: 5px;
 }
 
 /* Create Quiz Styles */
@@ -51,7 +58,7 @@
 }
 
 .create-quiz .tb-desc {
-    background-color: #fff;
+    background-color: rgb(113, 214, 207);
 }
 
 .create-quiz .options > div {
@@ -59,7 +66,7 @@
 }
 
 .create-quiz .options input[type=checkbox] {
-    border: 1px solid #262626;
+    border: 1px solid #4e4949;
     display: inline-block;
     height: 20px;
     margin-top: 10px;

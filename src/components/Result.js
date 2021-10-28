@@ -24,7 +24,7 @@ function Result(props) {
                     </div>
                 </div>
             )}
-            <h4 className="alert alert-info text-center">You may close this window now.</h4>
+            <h4 className="alert alert-info text-center">You may close this window now to come out of the quiz or refresh the page to restart the quiz </h4>
         </div>
     )
 }
